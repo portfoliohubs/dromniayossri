@@ -228,17 +228,13 @@ defaultContentLanguage = "en"
       alt_ar = "تقنية هول"
       description_ar = "تقنية هول"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "surgery"
-    category_ar = "الخلع"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/cff5b2ca-abd6-4a09-a9ba-3176f30e0d32"
       alt = "Extraction of primary molar due to root caries"
       description = "Extraction of primary molar due to root caries"
       alt_ar = "خلع ضرس لبني بعد وصول التسوس إلى الجذر"
       description_ar = "خلع ضرس لبني بعد وصول التسوس إلى الجذر"
+
       
   # Contact Section
   [params.contact]
