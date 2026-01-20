@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Omnia Yossri"
     tagline = "internship Dentist"
     graduation = "Graduated 2025 - Egyptian Russian University"
-    profile_image = "https://github.com/user-attachments/assets/21412428-1341-4e9e-a5c4-c2685ac61397"
+    profile_image = "https://github.com/user-attachments/assets/f5cfc3d6-bfe8-45d8-afeb-db5a269c6cab"
     profile_image_alt = "Profile photo of Dr. Omnia Yossri"
     
     [params.hero.current_position]
