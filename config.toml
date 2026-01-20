@@ -1,0 +1,357 @@
+baseURL = "https://portfoliohubs.github.io/dromniayossri/"
+languageCode = "en-us"
+title = "Dr. Omnia Yossri"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Omnia Yossri"
+    tagline = "internship Dentist"
+    graduation = "Graduated 2025 - Egyptian Russian University"
+    profile_image = "https://github.com/user-attachments/assets/21412428-1341-4e9e-a5c4-c2685ac61397"
+    profile_image_alt = "Profile photo of Dr. Omnia Yossri"
+    
+    [params.hero.current_position]
+      role = "internship Dentist"
+      clinic = "Egyptian Russian University"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Omnia Yossril"
+    doctor_name_ar = "د. امنية يسرى"
+    site_name = "Dr. Omnia Yossri"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Omnia Yossri",
+      "egyptian russian university",
+      "DENTIST IN EGYPTIAN RUSSIAN UNIVERSITY",
+      "DENTAL CLINIC IN EGYPTIAN RUSSIAN UNIVERSITY",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. امنية يسرى",
+      "طبيب بالجامعة المصرية الروسية",
+      "عيادة بالجامعة المصرية الروسية",
+      "دكتور امنية يسرى",
+      "عيادة امنية يسرى",
+      "عيادة اسنان الشرقية",
+      "امنية يسرى اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Pediatric",
+      "Cosmetics",
+      "Endodontic",
+      "Prosthodontic",
+      "Surgery"
+    ]
+    
+    digital = [
+      "PowerPoint",
+      "Photoshop",
+      "Microsoft",
+      "Excel"
+    ]
+    
+    soft = [
+      "Pediatric Management",
+      "Time management",
+      "Team leader"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Egyptian Russian University"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry 2020"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated 2025"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+# Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative and cosmetics"
+    category_ar = "الحشو العادى والتجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ed3dfe63-5e90-4cde-b540-ef42f10339e5"
+      alt = "Composite Restoration class IV for Upper Central"
+      description = "Composite Restoration class IV for Upper Central"
+      alt_ar = "حشو تجميلي لتعويض كسر في القاطع الأمامي"
+      description_ar = "حشو تجميلي لتعويض كسر في القاطع الأمامي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/42d2e93e-5a3a-4a3e-ab7d-651b48853041"
+      alt = "Composite Restoration of deep cavity in lower 8"
+      description = "Composite Restoration of deep cavity in lower 8"
+      alt_ar = "حشو تجميلي لتسوس عميق في ضرس العقل السفلي"
+      description_ar = "حشو تجميلي لتسوس عميق في ضرس العقل السفلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis"
+    category_ar = "التركيبات الثابته"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/eb0fd59a-619d-4fd8-960f-c4c74db384e0"
+      alt = "Laminate veneer from 3:3 to correct Spacing of teeth"
+      description = "Laminate veneer from 3:3 to correct Spacing of teeth"
+      alt_ar = "قشور تجميلية لغلق المسافات وتعديل شكل الأسنان من الناب العلوى إلى مقابله"
+      description_ar = "قشور تجميلية لغلق المسافات وتعديل شكل الأسنان من الناب العلوى إلى مقابله"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/eb0fd59a-619d-4fd8-960f-c4c74db384e0"
+      alt = "Laminate veneer from 3:3 to correct Spacing of teeth"
+      description = "Laminate veneer from 3:3 to correct Spacing of teeth"
+      alt_ar = "قشور تجميلية لغلق المسافات وتعديل شكل الأسنان من الناب العلوى إلى مقابله"
+      description_ar = "قشور تجميلية لغلق المسافات وتعديل شكل الأسنان من الناب العلوى إلى مقابله"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/20354968-80a5-4f47-9b59-cc4f1841f06d"
+      alt = "Fixed bridge to restore Upper 5"
+      description = "Fixed bridge to restore Upper 5"
+      alt_ar = "كوبري ثابت لتعويض الضرس العلوي رقم 5"
+      description_ar = "كوبري ثابت لتعويض الضرس العلوي رقم 5"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/6e37b8f7-6def-428c-acfe-774e83ac4ebd"
+      alt = "Endo ttt for Lower 5"
+      description = "Endo ttt for Lower 5"
+      alt_ar = "حشو عصب"
+      description_ar = "حشو عصب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Pedo"
+    category_ar = "الاطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b32f6816-4560-4158-96ac-e429e4aa8478"
+      alt = "Pulpotomy and SSC"
+      description = "Pulpotomy and SSC"
+      alt_ar = "حشو عصب أطفال جزئي وطربوش معدني"
+      description_ar = "حشو عصب أطفال جزئي وطربوش معدني"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0efecbbb-88a5-407c-89f4-c69ecdb1f33b"
+      alt = "Hall technique"
+      description = "Hall technique"
+      alt_ar = "تقنية هول"
+      description_ar = "تقنية هول"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "surgery"
+    category_ar = "الخلع"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/cff5b2ca-abd6-4a09-a9ba-3176f30e0d32"
+      alt = "Extraction of primary molar due to root caries"
+      description = "Extraction of primary molar due to root caries"
+      alt_ar = "خلع ضرس لبني بعد وصول التسوس إلى الجذر"
+      description_ar = "خلع ضرس لبني بعد وصول التسوس إلى الجذر"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201005447963"
+    whatsapp = "+201005447963"
+    email = "Omniayossri936@gmail.com"
+    instagram = "https://www.facebook.com/share/1CKQGUUurN/?mibextid=wwXIfr"
+    facebook = "https://www.facebook.com/share/1CKQGUUurN/?mibextid=wwXIfr"
+    linkedin = "https://linkedin.com/in/yourprofile"
+    
+    [params.contact.location]
+      enabled = true
+      address = "Egyptian Russian University - Badr City"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. امنية يسرى"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - الجامعة المصرية الروسية"
+    profile_image_alt = "صورة الملف الشخصي للدكتور امنية يسرى"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "الجامعة المصرية الروسية"
+  
+[params.ar.skills]
+    clinical = [
+      "الأطفال",
+      "الحشوات التجميلية",
+      "حشو العصب",
+      "الجراحة",
+      "التركيبات الثابتة"
+    ]
+    
+    digital = [
+      "استخدام الباور بوينت",
+      "فوتوشوب",
+      "مايكروسوفت",
+      "اكسيل"
+    ]
+    
+    soft = [
+      "التواصل مع الأطفال",
+      "إدارة الوقت",
+      "القيادة"
+    ]
+    
+  
+  [params.ar.education]
+    university = "الجامعة المصرية الروسية"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول للكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكلية"  
+
+  [params.ar.contact.location]
+    address = "الجامعة المصرية الروسية - مدينة بدر"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
