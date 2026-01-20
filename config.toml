@@ -245,9 +245,9 @@ defaultContentLanguage = "en"
     phone = "+201005447963"
     whatsapp = "+201005447963"
     email = "Omniayossri936@gmail.com"
-    instagram = "https://www.facebook.com/share/1CKQGUUurN/?mibextid=wwXIfr"
+    instagram = ""
     facebook = "https://www.facebook.com/share/1CKQGUUurN/?mibextid=wwXIfr"
-    linkedin = "https://linkedin.com/in/yourprofile"
+    linkedin = ""
     
     [params.contact.location]
       enabled = true
