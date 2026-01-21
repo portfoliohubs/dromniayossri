@@ -33,7 +33,9 @@ defaultContentLanguage = "en"
       "egyptian russian university",
       "DENTIST IN EGYPTIAN RUSSIAN UNIVERSITY",
       "DENTAL CLINIC IN EGYPTIAN RUSSIAN UNIVERSITY",
-      "DENTAL CLINIC"
+      "DENTAL CLINIC", 
+      "Omnia yossri", 
+      "doctor omnia yossri" 
     ]
     keywords_ar = [
       "طبيب أسنان",
@@ -49,7 +51,7 @@ defaultContentLanguage = "en"
       "عيادة امنية يسرى",
       "عيادة اسنان الشرقية",
       "امنية يسرى اسنان", 
-     " امنيه يسرى اسنان
+     " امنيه يسرى اسنان" 
     ]
 
   [params.integrations]
